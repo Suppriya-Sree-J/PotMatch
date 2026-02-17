@@ -1,6 +1,4 @@
-# FOSSEE--Arduino-Based-Tasks
-PotMatch is a fast, simple sensor actuator, analog precision game built on Arduino Nano. Match the hidden value using a potentiometer while LEDs react in real time, along with Buzzers and LCD feedback. Features stable input detection, multi-stage feedback logic, timers, tries, and non blocking actuator control.
-PotMatch 
+# PotMatch
 
 PotMatch is a compact sensor–actuator embedded system built around an Arduino Nano.
 It uses a potentiometer as an analog input device and provides layered feedback using LEDs, a passive buzzer, and a 16×2 I2C LCD. With the primary simple sensor actuator system being the potentiometer and the LED respectively, with an LCD and buzzer connected to this output. The system evaluates how closely the user matches a hidden analog target value and progressively indicates proximity through a multi-stage feedback pattern. It is a compact, carriable game, ready to provide challenge and fun. 
@@ -217,40 +215,6 @@ A clean PDF schematic is included in this repository.
 
 
 
-
----
-
-7. Applications / Learning Outcomes
-
-PotMatch is intentionally simple in hardware, but demonstrates several important microcontroller concepts:
-
-Analog signal sampling
-
-Stable input detection without blocking
-
-Time-based event handling
-
-Multimodal feedback generation
-
-Non-blocking state-machine design
-
-Sensor–actuator interaction patterns
-
-Menu navigation with a single button
-
-Level-based embedded game logic
-
-
-
----
-
-8. Notes
-
-LCD address defaults to 0x27. If the display shows nothing, try 0x3F.
-
-Win window sizes differ per level for practical usability.
-
-All tones and animations run non-blockingly, keeping the system responsive.
 
 
 
